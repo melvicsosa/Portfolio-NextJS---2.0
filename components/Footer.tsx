@@ -21,7 +21,7 @@ const Footer = () => {
                 <p className="text-white-200 md:mt-10 my-5 text-center text-lg">
                     Let&apos;s connect and explore how my skills can help grow your business or team.
                 </p>
-                <a href="/melvic-sosa-resume.pdf" download>
+                <a href={`/MELVIC-RESUME-2025.pdf?v=${new Date().getTime()}`} download>
                     <MagicButton
                         title="Download Resume"
                         icon={<Icon icon="hugeicons:pdf-01" color="#d91304" width={30} height={30} />}
@@ -41,7 +41,7 @@ const Footer = () => {
                             href={info.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                            className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:border-slate-600 transition-colors duration-300 ease-in-out"
                         >
                             <Icon icon={info.icon} color="white" width={20} height={20} />
                         </a>

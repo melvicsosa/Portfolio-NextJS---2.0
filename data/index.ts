@@ -47,7 +47,6 @@ export const gridItems = [
         img: '/grid.svg',
         spareImg: '/b4.svg',
     },
-
     {
         id: 5,
         title: 'Currently building a Figma Wireframe Automation Tool',
@@ -82,15 +81,15 @@ export const projects = [
     {
         id: 2,
         title: 'BuyRite Site - B2B Portal',
-        description: 'SBuilt a Laravel/Statamic B2B portal from design files, implemented company and user registration for a custom e-commerce portal, automated product sync from Google Sheets, and contributed across front- and back-end development, including testing and automation.',
+        description: 'Developed a Laravel/Statamic B2B portal from design files, implemented company and user registration for a custom e-commerce portal, automated product sync from Google Sheets, and contributed across front- and back-end development, including testing and automation.',
         img: '/projects/buyrite.webp',
         iconLists: ['simple-icons:statamic', 'ri:php-fill', '/ts.svg','/tail.svg', 'simple-icons:mysql', 'vscode-icons:file-type-vite'],
         link: 'https://buyrite.site/',
     },
     {
         id: 3,
-        title: 'IGIWAX',
-        description: 'Built an informative WordPress (Bedrock/Sage) portal with a resource and product catalog, implementing ACF-managed custom post types and taxonomies, an MVC services extension, and bespoke catalog e-commerce features; integrated HubSpot via Gravity Forms and contributed across the stack (front end and back end).',
+        title: 'IGI-WAX',
+        description: 'Developed an informative WordPress (Bedrock/Sage) portal with a resource and product catalog, implementing ACF-managed custom post types and taxonomies, an MVC services extension, and bespoke catalog e-commerce features; integrated HubSpot via Gravity Forms and contributed across the stack (front end and back end).',
         img: '/projects/igiwax.webp',
         iconLists: ['ic:baseline-wordpress', 'ri:php-fill', '/ts.svg','/tail.svg', 'simple-icons:mysql', 'vscode-icons:file-type-vite'],
         link: 'https://igiwax.com/',
@@ -117,7 +116,7 @@ export const projects = [
         description: 'Built a WooCommerce/WordPress site with points rewards and role-based dashboards—enabling performance/event/task redemption and boosting engagement. Played a key role in the institution\'s digital transformation, driving engagement and motivation.',
         img: '/projects/Quiosco.webp',
         iconLists: ['ic:baseline-wordpress', 'ri:php-fill','logos:woocommerce-icon', 'devicon:jquery', 'simple-icons:mysql', 'devicon:azure' , 'ri:windows-fill'],
-        link: 'https://quioscojudicial.gob.do/',
+        link: 'https://quiosco.poderjudicial.gob.do/',
     },
     {
         id: 7,
@@ -272,6 +271,6 @@ export const techStacksLeft = [
 ]
 
 export const techStacksRight = [
-    'Wordpress', 'PHP', 'AWS'
+    'Wordpress', 'PHP', 'Figma'
 ]
 
