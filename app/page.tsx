@@ -14,17 +14,23 @@ export default function Home() {
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#020619] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             <div className='max-w-7xl w-full z-10'>
                 <FloatingNav navItems={navItems} />
+                {/* Hero Component */}
                 <Hero />
+                {/* Grid Component */}
                 <Grid />
+                {/* Recent Projects Component */}
                 <section id="projects">
                     <RecentProjects />
                 </section>
+                {/* Testimonials Component */}
                 <section id="testimonials">
                     <Clients />
                 </section>
+                {/* Experience Component */}
                 <section id="experience">
                     <Experience />
                 </section>
+                {/* Contact Component */}
                 <section id="contact">
                     <Footer />
                 </section>
