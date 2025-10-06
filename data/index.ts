@@ -1,3 +1,6 @@
+/**
+ * Navigation items
+ */
 export const navItems = [
     { name: 'About', link: '#about' },
     { name: 'Projects', link: '#projects' },
@@ -6,6 +9,9 @@ export const navItems = [
     { name: 'Contact', link: '#contact' },
 ]
 
+/**
+ * Main Grid items - these are the items that are displayed in the grid - not all the items have a spare image
+ */
 export const gridItems = [
     {
         id: 1,
@@ -69,6 +75,10 @@ export const gridItems = [
     },
 ]
 
+/**
+ * Projects - list of projects to display in the projects section/.
+ * Each project has an id, title, description, image, icon list, and link
+ */
 export const projects = [
     {
         id: 1,
@@ -104,6 +114,14 @@ export const projects = [
     },
     {
         id: 5,
+        title: 'MAC Connectors',
+        description: 'Catalog website with modern/minimalistic design with custom functiosn to sync products from Google Sheets. Developed using Statamic, Blade, php, Tailwind, PCSS, Javascript and Vite.',
+        img: '/projects/macconnectors.webp',
+        iconLists: ['simple-icons:statamic', 'ri:php-fill', 'devicon:javascript', '/tail.svg', 'skill-icons:sass', 'vscode-icons:file-type-vite'],
+        link: 'https://macconnectors.net/',
+    },
+    {
+        id: 6,
         title: 'Web Portal | Judicial Branch (Dom.Rep)',
         description: 'Implemented a secure, scalable cloud architecture using PHP, jQuery, and MySQL; optimized for SEO and accessibility; integrated in-house solutions with third-party apps for a unified, user-centric experience; and led digital transformation during the 2020 pandemic by creating new online channels.',
         img: '/projects/PoderJudicial.webp',
@@ -111,7 +129,7 @@ export const projects = [
         link: 'https://poderjudicial.gob.do/',
     },
     {
-        id: 6,
+        id: 7,
         title: 'e-Commerce Website | Judicial Quiosk',
         description: 'Built a WooCommerce/WordPress site with points rewards and role-based dashboards—enabling performance/event/task redemption and boosting engagement. Played a key role in the institution\'s digital transformation, driving engagement and motivation.',
         img: '/projects/Quiosco.webp',
@@ -119,15 +137,15 @@ export const projects = [
         link: 'https://quiosco.poderjudicial.gob.do/',
     },
     {
-        id: 7,
+        id: 8,
         title: 'Magnolia Home Remodeling',
         description: 'Pixel-perfect WordPress overhaul: new design, new framework, refactored code, and preserved content—built with TypeRocket (MVC), Tailwind, Twig, and Gulp.',
         img: '/projects/magnolia.webp',
-        iconLists: ['ic:baseline-wordpress', 'ri:php-fill', 'devicon:laravel','/ts.svg','/tail.svg','material-icon-theme:twig', 'simple-icons:mysql'],
+        iconLists: ['ic:baseline-wordpress', 'ri:php-fill', 'devicon:laravel','/ts.svg','/tail.svg','material-icon-theme:twig', 'vscode-icons:file-type-css',],
         link: 'https://magnoliahomeremodeling.com/',
     },
     {
-        id: 8,
+        id: 9,
         title: 'Grade Construction',
         description: 'Developed a showcase-driven WordPress site (Bedrock/Sage) using ACF for CPTs/fields and Blade + Tailwind for layout/styles; key contributor on both FE and BE.',
         img: '/projects/grade.webp',
@@ -135,7 +153,7 @@ export const projects = [
         link: 'https://gradeconstruction.net/',
     },
     {
-        id: 9,
+        id: 10,
         title: 'Elite Mechanical Group',
         description: 'Developed a custom WordPress design, using ACF for the Custom Fields & Custom Postypes and Elementor Pro as Builder, with a refined, minimalist look. Focused on content organization and user experience.',
         img: '/projects/elitemgc.webp',
@@ -143,7 +161,15 @@ export const projects = [
         link: 'https://elitemgc.com/',
     },
     {
-        id: 10,
+        id: 11,
+        title: 'Gundam - 3D-Carousel CSS Only',
+        description: 'A simple 3D hero carousel built with React and Vite, styled entirely with PostCSS. The slides transition using layered transforms and perspective tricks in pure CSS—no JavaScript animation libraries required.',
+        img: '/projects/gundam-hero.webp',
+        iconLists: ['ri:reactjs-fill', 'vscode-icons:file-type-css', 'skill-icons:sass', 'vscode-icons:file-type-vite'],
+        link: 'https://3d-gundam-hero.netlify.app/',
+    },
+    {
+        id: 12,
         title: 'Pokedex with Speech Synthesis',
         description: 'A simple but user-friendly Pokedex. The data is fetched from the PokeAPI. One of the key features of this project is the implementation of the SpeechSynthesisUtterance interface, enabling the application to verbally announce the names and characteristics of each Pokémon.',
         img: '/projects/pokedex.webp',
@@ -152,6 +178,10 @@ export const projects = [
     },
 ]
 
+/**
+ * Testimonials - list of testimonials to display in the testimonials section.
+ * Each testimonial has a quote, name, title, and headshot.
+ */
 export const testimonials = [
     {
         quote: "Melvic was instrumental in our digital transformation. His design expertise and extensive experience significantly improved our web portals—elevating user experience, visual interfaces, and integrations. Through strong teamwork and Melvic’s leadership, we earned multiple national institutional certifications.",
@@ -179,6 +209,10 @@ export const testimonials = [
     },
 ]
 
+/**
+ * Companies - list of brands logos to display in the companies section.
+ * Each company has an id, name, and image.
+ */
 export const companies = [
     {
         id: 1,
@@ -200,11 +234,6 @@ export const companies = [
         name: 'stream',
         img: '/companies/Windows_Server_logo.svg',
     },
-    // {
-    //     id: 5,
-    //     name: 'nginx',
-    //     img: '/companies/Nginx_logo.svg',
-    // },
     {
         id: 6,
         name: 'n8n',
@@ -212,6 +241,10 @@ export const companies = [
     },
 ]
 
+/**
+ * Work Experience - list of work experience.
+ * Each work experience has an id, title, description, class name, and thumbnail (icon).
+ */
 export const workExperience = [
     {
         id: 1,
@@ -243,6 +276,10 @@ export const workExperience = [
     },
 ]
 
+/**
+ * Social Media - list of social media links.
+ * Each social media has an id, icon, and link.
+ */
 export const socialMedia = [
     {
         id: 1,
@@ -266,11 +303,14 @@ export const socialMedia = [
     },
 ]
 
+/**
+ * Tech Stacks - list of tech stacks to displayed in the two columns layout tech section
+ */
 export const techStacksLeft = [
     'Next.js', 'Vue.js', 'Tailwind', 'JavaScript'
 ]
 
 export const techStacksRight = [
-    'Wordpress', 'PHP', 'Figma'
+    'Wordpress', 'PHP', 'PCSS'
 ]
 
