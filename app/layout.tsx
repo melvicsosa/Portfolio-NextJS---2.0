@@ -30,7 +30,18 @@ export default function RootLayout({
     return (
         <html lang='en' suppressHydrationWarning>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-                <ThemeProvider attribute='class' defaultTheme='dark' enableSystem disableTransitionOnChange>
+                {/*
+                    Enforce a consistent dark default and ignore any legacy
+                    localStorage value (from older site versions) by using a
+                    new storage key and disabling system theme.
+                */}
+                <ThemeProvider
+                    attribute='class'
+                    defaultTheme='dark'
+                    enableSystem={false}
+                    storageKey='ms-theme-v1'
+                    disableTransitionOnChange
+                >
                     {children}
                 </ThemeProvider>
             </body>

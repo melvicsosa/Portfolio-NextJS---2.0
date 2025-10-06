@@ -86,7 +86,7 @@ export const projects = [
         description: 'Delivered a 25% performance lift that boosted marketing results and engagement; led the shift from third-party tools to in-house solutions to cut costs and reliance; and, using Vue.js, Node.js, and AWS, improved scalability, reliability, and deployment speed for a smoother UX.',
         img: '/projects/simpli_01.webp',
         iconLists: ['logos:vue', 'skill-icons:sass', 'skill-icons:javascript', 'mdi:aws', 'flowbite:mongo-db-solid', 'logos:nodejs-icon', 'material-icon-theme:serverless'],
-        link: '/https://studio.simpli.padsquad.com/sign-in',
+        link: 'https://studio.simpli.padsquad.com/sign-in',
     },
     {
         id: 2,
