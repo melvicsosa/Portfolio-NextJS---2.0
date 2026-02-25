@@ -82,6 +82,22 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: 'Elis Cuisine',
+        description: 'A strikingly elegant and modern web portfolio tailored for a specialized chef. Built with Next.js, it beautifully showcases culinary expertise through a dynamic portfolio, a stunning plates gallery, and a seamless contact experience.',
+        img: '/projects/elis-cuisine.webp',
+        iconLists: ['/next.svg', '/ts.svg','/tail.svg', 'vscode-icons:file-type-vite'],
+        link: 'https://eliscuisine.com/',
+    },
+    {
+        id: 2,
+        title: 'Gamma Solar MF - Solar Calc',
+        description: 'A powerful calculator engineered with Next.js, TypeScript, and Tailwind CSS to instantly estimate and quote ideal Gamma Solar equipment. It leverages precise geolocation and kW calculations to deliver highly accurate, tailored solar solutions.',
+        img: '/projects/gamma-solar.webp',
+        iconLists: ['/next.svg', '/ts.svg','/tail.svg', 'vscode-icons:file-type-vite'],
+        link: 'https://gammasolar-calculadora.onrender.com/',
+    },
+    {
+        id: 3,
         title: 'Simpli Studio - Ad Creative Management',
         description: 'Delivered a 25% performance lift that boosted marketing results and engagement; led the shift from third-party tools to in-house solutions to cut costs and reliance; and, using Vue.js, Node.js, and AWS, improved scalability, reliability, and deployment speed for a smoother UX.',
         img: '/projects/simpli_01.webp',
@@ -89,7 +105,7 @@ export const projects = [
         link: 'https://studio.simpli.padsquad.com/sign-in',
     },
     {
-        id: 2,
+        id: 4,
         title: 'BuyRite Site - B2B Portal',
         description: 'Developed a Laravel/Statamic B2B portal from design files, implemented company and user registration for a custom e-commerce portal, automated product sync from Google Sheets, and contributed across front- and back-end development, including testing and automation.',
         img: '/projects/buyrite.webp',
@@ -97,7 +113,7 @@ export const projects = [
         link: 'https://buyrite.site/',
     },
     {
-        id: 3,
+        id: 5,
         title: 'IGI-WAX',
         description: 'Developed an informative WordPress (Bedrock/Sage) portal with a resource and product catalog, implementing ACF-managed custom post types and taxonomies, an MVC services extension, and bespoke catalog e-commerce features; integrated HubSpot via Gravity Forms and contributed across the stack (front end and back end).',
         img: '/projects/igiwax.webp',
@@ -105,7 +121,7 @@ export const projects = [
         link: 'https://igiwax.com/',
     },
     {
-        id: 4,
+        id: 6,
         title: 'iFoodDS – Enrollment Portal',
         description: 'Built a WordPress (Bedrock/Sage) enrollment portal with ACF-driven custom post types/fields, developed custom WooCommerce services for multi-variation pricing, crafted layouts/styles with Blade and Tailwind, and contributed across both front- and back-end.',
         img: '/projects/ifoodds.webp',
@@ -113,7 +129,7 @@ export const projects = [
         link: 'https://supplier-trace.ifoodds.com/',
     },
     {
-        id: 5,
+        id: 7,
         title: 'MAC Connectors',
         description: 'Catalog website with modern/minimalistic design with custom functiosn to sync products from Google Sheets. Developed using Statamic, Blade, php, Tailwind, PCSS, Javascript and Vite.',
         img: '/projects/macconnectors.webp',
@@ -121,7 +137,7 @@ export const projects = [
         link: 'https://macconnectors.net/',
     },
     {
-        id: 6,
+        id: 8,
         title: 'Web Portal | Judicial Branch (Dom.Rep)',
         description: 'Implemented a secure, scalable cloud architecture using PHP, jQuery, and MySQL; optimized for SEO and accessibility; integrated in-house solutions with third-party apps for a unified, user-centric experience; and led digital transformation during the 2020 pandemic by creating new online channels.',
         img: '/projects/PoderJudicial.webp',
@@ -129,7 +145,7 @@ export const projects = [
         link: 'https://poderjudicial.gob.do/',
     },
     {
-        id: 7,
+        id: 9,
         title: 'e-Commerce Website | Judicial Quiosk',
         description: 'Built a WooCommerce/WordPress site with points rewards and role-based dashboards—enabling performance/event/task redemption and boosting engagement. Played a key role in the institution\'s digital transformation, driving engagement and motivation.',
         img: '/projects/Quiosco.webp',
@@ -137,7 +153,7 @@ export const projects = [
         link: 'https://quiosco.poderjudicial.gob.do/',
     },
     {
-        id: 8,
+        id: 10,
         title: 'Magnolia Home Remodeling',
         description: 'Pixel-perfect WordPress overhaul: new design, new framework, refactored code, and preserved content—built with TypeRocket (MVC), Tailwind, Twig, and Gulp.',
         img: '/projects/magnolia.webp',
@@ -145,7 +161,7 @@ export const projects = [
         link: 'https://magnoliahomeremodeling.com/',
     },
     {
-        id: 9,
+        id: 11,
         title: 'Grade Construction',
         description: 'Developed a showcase-driven WordPress site (Bedrock/Sage) using ACF for CPTs/fields and Blade + Tailwind for layout/styles; key contributor on both FE and BE.',
         img: '/projects/grade.webp',
@@ -153,7 +169,7 @@ export const projects = [
         link: 'https://gradeconstruction.net/',
     },
     {
-        id: 10,
+        id: 12,
         title: 'Elite Mechanical Group',
         description: 'Developed a custom WordPress design, using ACF for the Custom Fields & Custom Postypes and Elementor Pro as Builder, with a refined, minimalist look. Focused on content organization and user experience.',
         img: '/projects/elitemgc.webp',
@@ -161,7 +177,7 @@ export const projects = [
         link: 'https://elitemgc.com/',
     },
     {
-        id: 11,
+        id: 13,
         title: 'Gundam - 3D-Carousel CSS Only',
         description: 'A simple 3D hero carousel built with React and Vite, styled entirely with PostCSS. The slides transition using layered transforms and perspective tricks in pure CSS—no JavaScript animation libraries required.',
         img: '/projects/gundam-hero.webp',
@@ -169,7 +185,7 @@ export const projects = [
         link: 'https://3d-gundam-hero.netlify.app/',
     },
     {
-        id: 12,
+        id: 14,
         title: 'Pokedex with Speech Synthesis',
         description: 'A simple but user-friendly Pokedex. The data is fetched from the PokeAPI. One of the key features of this project is the implementation of the SpeechSynthesisUtterance interface, enabling the application to verbally announce the names and characteristics of each Pokémon.',
         img: '/projects/pokedex.webp',
